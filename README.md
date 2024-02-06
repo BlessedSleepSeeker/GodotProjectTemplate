@@ -1,6 +1,22 @@
 # GodotProjectTemplate
 A quick-start project with settings, credits, main menu and scene transition.
 
+- [GodotProjectTemplate](#godotprojecttemplate)
+  - [Usage](#usage)
+  - [Features](#features)
+    - [Scenes transition](#scenes-transition)
+    - [Settings](#settings)
+      - [Settings File](#settings-file)
+      - [Settings Scene](#settings-scene)
+      - [Defining a Setting](#defining-a-setting)
+        - [Setting.gd](#settinggd)
+        - [Extending Setting.gd](#extending-settinggd)
+      - [SettingsScreen Scene](#settingsscreen-scene)
+    - [MainMenu](#mainmenu)
+    - [Title Sequence](#title-sequence)
+    - [Credits](#credits)
+  - [Licensing \& Crediting](#licensing--crediting)
+
 ## Usage
 
 1. Download the archive of the repository.
@@ -198,3 +214,12 @@ For more informations, look at the source code of [TitleSequence](https://github
 Credits are a simple blank scene that will be transitioned to when the `CreditsButton` of the `MainMenu` is pressed. The `Button` in the scene will trigger a transition to the main menu.
 
 For more informations, look at the source code of [CreditsScene](https://github.com/BlessedSleepSeeker/GodotProjectTemplate/blob/main/project/scenes/menu/credit_scene.gd)
+
+## Licensing & Crediting
+
+Please read the [license](https://github.com/BlessedSleepSeeker/GodotProjectTemplate/blob/main/LICENSE) !  
+If you do a project with my template, I'd love to hear your feedback !
+
+Crediting me is appreciated but not required. If you do want to credit me, pls credit me like this :
+
+`Blessed Sleep Seeker - Camille Gouneau`
