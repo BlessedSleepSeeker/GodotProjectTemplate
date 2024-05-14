@@ -90,7 +90,7 @@ save_settings_to_file()
 ```
 
 #### Settings Scene
-All the settings are stored as a node tree in a scene. The root node house the `Settings.gd` script. Each node expect the root is either a Section, like Window, Sound, Game... or a Setting like MaxFPS, Resolution or MasterVolume.
+All the settings are stored as a node tree in a scene. The root node house the `Settings.gd` script. Each node except the root is either a Section, like Window, Sound, Game... or a Setting like MaxFPS, Resolution or MasterVolume.
 - Sections are simple nodes.
      - I use `node.name` to create the setting file sections and the setting screen tabs.
 - Settings are nodes with a script attached.
